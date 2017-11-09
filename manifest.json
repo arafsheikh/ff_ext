@@ -1,0 +1,19 @@
+{
+
+  "description": "Hide cursor on mouse event",
+  "manifest_version": 2,
+  "name": "HideCursor",
+  "version": "1.0",
+  "homepage_url": "https://github.com/arafsheikh/hide-cursor",
+  "icons": {
+    "48": "icons/cursor-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
